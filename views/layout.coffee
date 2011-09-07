@@ -4,15 +4,14 @@ html ->
     title 'Express Coffee with CoffeeKup'
     meta charset: 'utf-8'
 
-    title "#{@title} | My Site" if @title?
+    title "#{@title} | lancewave" if @title?
     meta(name: 'description', content: @description) if @description?
     link(rel: 'canonical', href: @canonical) if @canonical?
 
-    link rel: 'icon', href: '/favicon.png'
-    link rel: 'stylesheet', href: '/app.css'
+    link rel: 'stylesheet', href: '/style.css'
 
     script src: 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'
-    script src: '/app.js'
+    script src: '/lancewave.js'
 
     style '''
       header, nav, section, article, aside, footer {display: block}
@@ -26,7 +25,7 @@ html ->
 
         nav ->
           ul ->
-            for item in ['About', 'Pricing', 'Contact']
+            for item in ['About', 'Projects', 'Contact']
               li -> a href: "/#{item.toLowerCase()}", title: item, -> item
 
       div id: 'content', ->
