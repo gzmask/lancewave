@@ -185,6 +185,9 @@ body {
 }
 
 #intro {
+	color: #fff;
+	font-size: 18px;
+	text-shadow: 5px 5px 5px #000000;
 	margin: 25px;
 }
 
