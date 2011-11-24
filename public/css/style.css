@@ -186,6 +186,7 @@ body {
 
 #intro {
 	color: #fff;
+	background-color: rgba(0,0,0,0.5); 
 	font-size: 18px;
 	text-shadow: 5px 5px 5px #000000;
 	margin: 25px;
