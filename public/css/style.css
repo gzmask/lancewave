@@ -184,6 +184,18 @@ body {
 	background-repeat: no-repeat;
 }
 
+#recruitment {
+	color: #ccc;
+	background-color: rgba(32,32,32,0.8); 
+	border-radius: 8px;
+	font-size: 18px;
+	text-shadow: 2px 2px 2px #000;
+	box-shadow: 5px 5px 5px #222;
+	padding: 15px;
+	margin: 15px;
+	max-width: 500px;
+}
+
 #intro {
 	color: #ccc;
 	background-color: rgba(32,32,32,0.8); 
