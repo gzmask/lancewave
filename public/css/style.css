@@ -174,7 +174,7 @@ a{
 
 body {
 	background: #555;
-	background-image:url('/img/background.png');
+	/*background-image:url('/img/background.png');*/
 }
 
 #logo {
@@ -193,7 +193,7 @@ body {
 	box-shadow: 5px 5px 5px #222;
 	padding: 15px;
 	margin: 15px;
-	max-width: 500px;
+	max-width: 61.8%;
 }
 
 #intro {
@@ -205,7 +205,7 @@ body {
 	box-shadow: 5px 5px 5px #222;
 	padding: 15px;
 	margin: 15px;
-	max-width: 500px;
+	max-width: 61.8%;
 }
 
 #container {
