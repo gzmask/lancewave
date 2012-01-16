@@ -1,4 +1,4 @@
-Server Deployment instructions:
+Server Deployment instructions.:
 
 1. install deps
 apt-get install libssl-dev vim-nox nginx unzip g++ screen git-core 
